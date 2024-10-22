@@ -1,0 +1,33 @@
+body {
+    background-color:rgb(53, 210, 100);
+    color: white;
+    font-family: "Comfortaa", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 8px;
+}
+
+button {
+    background-color: rgb(116, 200, 105);
+    color: white;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.passo{
+    display:none;
+}
+
+.passo.ativo{
+    display:block;
+}
+
+main{
+    text-align: center;
+    max-width:90%;
+}
+
+img{
+    max-width:90%;
+}
